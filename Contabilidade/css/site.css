@@ -1,0 +1,19 @@
+#Botao{
+    margin-left: 500px;
+    margin-top:300px;
+    width: 400px;
+}
+
+#Corpo{
+    background-image: url("http://2.bp.blogspot.com/_wZKgZb22CKk/S9bte_Z2RVI/AAAAAAAAAL8/h7y7PqCUEZQ/s1600/Figura1.gif")
+}
+
+#corpo2{
+    background-image: url("http://realconcontabilidade.com.br/wp-content/uploads/2016/05/Dicas-de-nomes-para-escritorio-de-contabilidade-2.jpg");
+}
+
+#topo{
+    background-color: black;
+    color: white;
+    font-family: "Arial Black";
+}
