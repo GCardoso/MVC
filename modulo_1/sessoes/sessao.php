@@ -25,6 +25,10 @@ class sessao
         return $_SESSION[$key];
     }
 
+    public static function buscar() {
+        $valor = $_SESSION;
+        return $valor;
+    }
 
 
 }
