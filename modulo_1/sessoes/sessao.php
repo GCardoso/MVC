@@ -9,26 +9,44 @@
 class sessao
 {
 
-    public static  function  start(){
+    public static function start()
+    {
         return session_start();
     }
 
-    public static function stop(){
+    public static function stop()
+    {
         return session_destroy();
     }
 
-    public static function setsessao($key,$value){
-        $_SESSION[$key]=$value;
+    public static function setsessao($key, $value)
+    {
+        $_SESSION[$key] = $value;
     }
 
-    public static  function getsessao($key){
+    public static function getsessao($key)
+    {
         return $_SESSION[$key];
     }
 
-    public static function buscar() {
+    public static function buscar()
+    {
         $valor = $_SESSION;
         return $valor;
     }
 
+    public static function autenticar($usuario, $senha)
+    {
+        $todosUsers = self::buscar();
+        if (!empty($todosUsers)) {
+            foreach ($todosUsers as $lista) {
+                if ($lista['usuario'] == $usuario && $lista['senha'] == $senha) {
+                    return true;
+                }
+            }
+        }else{
+            return false;
+        }
+    }
 
 }

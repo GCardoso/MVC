@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-<form>
+<form method="post"  action="validar.php">
     <legend class="h1">Form Login</legend>
     <div class="form-group">
     <label>
