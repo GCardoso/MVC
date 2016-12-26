@@ -7,6 +7,6 @@
  */
 include ('sessao.php');
 sessao::start();
-$listaUsuarios = array('nome'=>$_POST['snome'],'usuario'=>$_POST['usuario'],'senha'=>$_POST['senha']);
-sessao::setsessao($_POST['snome'],$listaUsuarios);
+$listaUsuarios = array('nome'=>$_POST['snome'],'usuario'=>$_POST['usuario'],'senha'=>$_POST['senha'],'logado'=>'nao');
+sessao::setsessao($_POST['usuario'],$listaUsuarios);
 header('location:http://localhost/modulo_1/sessoes/cadastro.php');

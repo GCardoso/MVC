@@ -40,7 +40,7 @@ class sessao
         $todosUsers = self::buscar();
         if (!empty($todosUsers)) {
             foreach ($todosUsers as $lista) {
-                if ($lista['usuario'] == $usuario && $lista['senha'] == $senha) {
+                if ($lista['usuario'] == $usuario && $lista['senha'] == $senha ) {
                     return true;
                 }
             }
@@ -48,5 +48,6 @@ class sessao
             return false;
         }
     }
+
 
 }
