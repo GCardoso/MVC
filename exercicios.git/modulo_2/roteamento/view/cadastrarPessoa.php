@@ -7,7 +7,7 @@
 </head>
 <body>
 	<form method="post" action="salvar" class="col-md-6">
-	<legend><h1>Editar empresa</h1></legend>
+	<legend><h1>Cadastrar Pessoa</h1></legend>
 	<div class="form-group">
 	<label>
 	    Nome
@@ -34,7 +34,7 @@
 	</div>
 	<div class="form-group">
 	  <label>
-	  	<button type="submit">Cadastrar</button>
+	  	<button type="submit" class="btn btn-success">Cadastrar</button>
 	  </label>
 	<div>
 

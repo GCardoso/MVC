@@ -4,11 +4,13 @@ include ('Config.php');
 
 define('SYS_ABS_PATH','..');
 
-	$scontroller = ucfirst(strtolower($_GET['controller']));
-	$sacao = ucfirst(strtolower($_GET['acao']));
-
+    if(isset($_GET['controller'])){
+    $scontroller = ucfirst(strtolower($_GET['controller']));
+    $sacao = ucfirst(strtolower($_GET['acao']));
+	
 	if (!file_exists('controller/'.$scontroller.'Controller.php')){
-        echo "Nao existe controller";
+         require 'view/404.php';
+         exit();
     }
         $sarquivo = 'controller/' . $scontroller . 'Controller.php';
         require $sarquivo;
@@ -26,3 +28,10 @@ define('SYS_ABS_PATH','..');
          else {
              $ocontroller->cadastrar();
         }
+
+
+
+}
+else{
+    require 'view/404.php';
+}

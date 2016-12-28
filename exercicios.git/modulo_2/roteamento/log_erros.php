@@ -196,3 +196,75 @@ Stack trace:
 #1 C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php(24): PessoaController->salvar()
 #2 {main}
   thrown in C:\wamp64\www\exercicios.git\modulo_2\roteamento\model\Pessoa.php on line 52
+[28-Dec-2016 05:41:41 UTC] PHP Notice:  Undefined index: controller in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 7
+[28-Dec-2016 05:41:41 UTC] PHP Stack trace:
+[28-Dec-2016 05:41:41 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:41:41 UTC] PHP Notice:  Undefined index: acao in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 8
+[28-Dec-2016 05:41:41 UTC] PHP Stack trace:
+[28-Dec-2016 05:41:41 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:41:41 UTC] PHP Warning:  require(controller/Controller.php): failed to open stream: No such file or directory in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 16
+[28-Dec-2016 05:41:41 UTC] PHP Stack trace:
+[28-Dec-2016 05:41:41 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:41:41 UTC] PHP Fatal error:  require(): Failed opening required 'controller/Controller.php' (include_path='.;C:\php\pear') in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 16
+[28-Dec-2016 05:41:41 UTC] PHP Stack trace:
+[28-Dec-2016 05:41:41 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:42:35 UTC] PHP Notice:  Undefined index: controller in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 7
+[28-Dec-2016 05:42:35 UTC] PHP Stack trace:
+[28-Dec-2016 05:42:35 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:42:36 UTC] PHP Notice:  Undefined index: acao in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 8
+[28-Dec-2016 05:42:36 UTC] PHP Stack trace:
+[28-Dec-2016 05:42:36 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:42:36 UTC] PHP Warning:  require(controller/Controller.php): failed to open stream: No such file or directory in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 14
+[28-Dec-2016 05:42:36 UTC] PHP Stack trace:
+[28-Dec-2016 05:42:36 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:42:36 UTC] PHP Fatal error:  require(): Failed opening required 'controller/Controller.php' (include_path='.;C:\php\pear') in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 14
+[28-Dec-2016 05:42:36 UTC] PHP Stack trace:
+[28-Dec-2016 05:42:36 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:42:36 UTC] PHP Notice:  Undefined index: controller in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 7
+[28-Dec-2016 05:42:36 UTC] PHP Stack trace:
+[28-Dec-2016 05:42:36 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:42:36 UTC] PHP Notice:  Undefined index: acao in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 8
+[28-Dec-2016 05:42:36 UTC] PHP Stack trace:
+[28-Dec-2016 05:42:36 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:42:36 UTC] PHP Warning:  require(controller/Controller.php): failed to open stream: No such file or directory in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 14
+[28-Dec-2016 05:42:36 UTC] PHP Stack trace:
+[28-Dec-2016 05:42:36 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:42:36 UTC] PHP Fatal error:  require(): Failed opening required 'controller/Controller.php' (include_path='.;C:\php\pear') in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 14
+[28-Dec-2016 05:42:36 UTC] PHP Stack trace:
+[28-Dec-2016 05:42:36 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:42:42 UTC] PHP Notice:  Undefined index: controller in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 7
+[28-Dec-2016 05:42:42 UTC] PHP Stack trace:
+[28-Dec-2016 05:42:42 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:42:42 UTC] PHP Notice:  Undefined index: acao in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 8
+[28-Dec-2016 05:42:42 UTC] PHP Stack trace:
+[28-Dec-2016 05:42:42 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:42:42 UTC] PHP Warning:  require(controller/Controller.php): failed to open stream: No such file or directory in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 14
+[28-Dec-2016 05:42:42 UTC] PHP Stack trace:
+[28-Dec-2016 05:42:42 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:42:42 UTC] PHP Fatal error:  require(): Failed opening required 'controller/Controller.php' (include_path='.;C:\php\pear') in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 14
+[28-Dec-2016 05:42:42 UTC] PHP Stack trace:
+[28-Dec-2016 05:42:42 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:42:42 UTC] PHP Notice:  Undefined index: controller in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 7
+[28-Dec-2016 05:42:42 UTC] PHP Stack trace:
+[28-Dec-2016 05:42:42 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:42:42 UTC] PHP Notice:  Undefined index: acao in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 8
+[28-Dec-2016 05:42:42 UTC] PHP Stack trace:
+[28-Dec-2016 05:42:42 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:42:42 UTC] PHP Warning:  require(controller/Controller.php): failed to open stream: No such file or directory in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 14
+[28-Dec-2016 05:42:42 UTC] PHP Stack trace:
+[28-Dec-2016 05:42:43 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:42:43 UTC] PHP Fatal error:  require(): Failed opening required 'controller/Controller.php' (include_path='.;C:\php\pear') in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 14
+[28-Dec-2016 05:42:43 UTC] PHP Stack trace:
+[28-Dec-2016 05:42:43 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:46:52 UTC] PHP Warning:  require(controller/AsdasController.php): failed to open stream: No such file or directory in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 15
+[28-Dec-2016 05:46:52 UTC] PHP Stack trace:
+[28-Dec-2016 05:46:52 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:46:52 UTC] PHP Fatal error:  require(): Failed opening required 'controller/AsdasController.php' (include_path='.;C:\php\pear') in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 15
+[28-Dec-2016 05:46:52 UTC] PHP Stack trace:
+[28-Dec-2016 05:46:52 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:49:14 UTC] PHP Warning:  require(controller/AsdasController.php): failed to open stream: No such file or directory in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 15
+[28-Dec-2016 05:49:14 UTC] PHP Stack trace:
+[28-Dec-2016 05:49:14 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
+[28-Dec-2016 05:49:15 UTC] PHP Fatal error:  require(): Failed opening required 'controller/AsdasController.php' (include_path='.;C:\php\pear') in C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php on line 15
+[28-Dec-2016 05:49:15 UTC] PHP Stack trace:
+[28-Dec-2016 05:49:15 UTC] PHP   1. {main}() C:\wamp64\www\exercicios.git\modulo_2\roteamento\index.php:0
