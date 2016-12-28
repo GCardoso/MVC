@@ -3,9 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Cadastro de Pessoa</title>
+	<link rel="stylesheet" type="text/css" href="/../exercicios.git/modulo_1/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-	<form method="post" action="editarempresa.php" class="col-md-6">
+	<form method="post" action="salvar" class="col-md-6">
 	<legend><h1>Editar empresa</h1></legend>
 	<div class="form-group">
 	<label>

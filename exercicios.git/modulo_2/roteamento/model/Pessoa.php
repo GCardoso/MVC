@@ -23,11 +23,11 @@ class Pessoa {
     	return $this->dDatanascimento;
     }
 
-    public function getidade() {
+    public  function getidade() {
  		return $this->iIdade;
     }
 
-    public function getcpf() {
+    public  function getcpf() {
     	return $this->icpf;
     }
 
@@ -45,6 +45,12 @@ class Pessoa {
 
     public function setidade($iIdade) {
     	$this->iIdade = $iIdade;
+    }
+
+
+    public static function salvar($dados){
+        $array = array('cpf'=> 10);
+        return $array;
     }
 
 

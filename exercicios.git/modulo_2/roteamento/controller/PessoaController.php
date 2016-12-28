@@ -3,7 +3,7 @@
 
 
 include_once('AbstractController.php');
-include_once('Model/Pessoa.php');
+include_once('model/Pessoa.php');
 
 class PessoaController extends AbstractController {
 
@@ -13,8 +13,14 @@ class PessoaController extends AbstractController {
 
 
    public function cadastrar() {
-   	   include
-
+   	      require "view/cadastrarPessoa.php";
    }
 
+
+   public function salvar() {
+        if(Pessoa::salvar($_POST) != null) {
+            $variavel = Pessoa::salvar($_POST);
+            echo $variavel['cpf'];
+        }
+   }
 }
