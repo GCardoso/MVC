@@ -9,10 +9,11 @@ class Usuario {
 	}
 
 
-	//Salvando dados no arquivo u.Json;
+	//Salvando dados no arquivo Novocadstro.Json;
 	public static function salvar ($aDados) {
-        $fp = fopen('u.json','a');
-        fwrite($fp,json_encode($aDados));
+        $fp = fopen('novocadastro.json','w');
+        var_dump($fp);
+        fwrite($fp,'{'. '"'.$aDados['login'].'"'.':'.json_encode($aDados)."}");
         fclose($fp);
     }
 }

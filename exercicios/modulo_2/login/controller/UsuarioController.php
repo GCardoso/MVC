@@ -15,8 +15,9 @@ class UsuarioController extends AbstractController {
 	}
 
 	function cadastro () {
-        $aDados = array('login' =>$_POST['usuario'],'senha' => $_POST['senha'],
-                 'adminstrador' => $_POST['adminstrador']);
+
+        $aDados = array('login' => $_POST['nome'],'senha' => $_POST['senha'],
+                 'adminstrador' => $_POST['tipo']);
         $bResultado = Usuario::salvar($aDados);
 
         if(!$bResultado) {
@@ -26,7 +27,12 @@ class UsuarioController extends AbstractController {
             header('location:'.APP_ROOT.'usuario/cadastrar');
     }
 
-    public function cadastrar () {
+    function cadastrar () {
         require 'view/cadastrar.php';
+    }
+
+    function listar () {
+        $aUsers = Usuario::listar();
+        require 'view/listaUsuarios.php';
     }
 }

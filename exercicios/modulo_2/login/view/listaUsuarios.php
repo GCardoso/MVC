@@ -15,13 +15,23 @@
       <a class="navbar-brand" href="paginainicial">Moobitech</a>
     </div>
     <ul class="nav navbar-nav">
-        <li class="active"><a href="paginainicial">Home</a></li>
-        <li><a href="cadastrar">Cadastro De Usuarios</a></li>
-        <li><a href="../login/sair">Deslogar</a>
-        <li><a href="listar">Listar Usuarios</a>
-        <li><a> Bem vindo : <?php echo $_SESSION['logado']." ,Logou as ".":".$_SESSION['time']; ?> </a></li>
-    </ul>
-  </div>
+      <li ><a href="paginainicial">Home</a></li>
+      <li><a href="cadastrar">Cadastro De Usuarios</a></li>
+      <li><a href="../login/sair">Deslogar</a>
+      <li class="active"><a href="listar">Listar Usuarios</a>
+      <li><a> Bem vindo : <?php echo $_SESSION['logado']." ,Logou as ".":".$_SESSION['time']; ?> </a></li>
+</ul>
+</div>
 </nav>
+<br>
+<br>
+<br>
+<br>
+<legend>Usuarios que podem logar</legend>
+<?php  foreach ($aUsers as $key) {?>
+     <?php if($key['administrador'] == true) { ?>
+     <h1><?php echo "Nome :".$key['login']?> </h1>
+     <h1><?php echo "Acesso admin :".$key['administrador']?> </h1>
+<?php } }?>
 </body>
 </html>

@@ -20,10 +20,10 @@ class Login {
 			 if($key['login'] == $sUsuario && $key['senha'] == $sSenha  && $key['administrador'] == true) {
 			 	$_SESSION['logado'] = $sUsuario;
 			 	$_SESSION['administrador'] = $key['administrador'];
+                $_SESSION['time'] = date('h:i:s',time());
 			 	return true;
 			 }
 		}
 		return false;
 	}
-
 }
