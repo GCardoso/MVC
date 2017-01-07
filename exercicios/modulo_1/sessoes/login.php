@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Marcus
- * Date: 25/12/2016
- * Time: 16:11
- */
+include_once('../../modulo_2/error/Config.php');
 ?>
 <html>
 <head>

@@ -1,18 +1,17 @@
-{
-  "Developer": {
-    "login": "mvss",
-    "senha": "161193",
-    "administrador": true
-  },
-  "moobitech": {
-    "login": "moobitech",
-    "senha": "123456789",
-    "administrador": true
-  },
-  "usuario2": {
-    "login": "erick",
-    "senha": "123",
-    "administrador": false
-  }
-}
-
+[{
+            "login":"mvss",
+            "senha":"161193",
+            "administrador":true 
+},
+ {
+ 			"login":"moobitech",
+ 			"senha":"123456789",
+ 			"administrador":true
+ },
+  {
+  			"login":"erick",
+  			"senha":"123",
+  			"administrador":false
+ },
+ {"login":"ashdhasj","senha":"kjasdhkja","administrador":false}
+]

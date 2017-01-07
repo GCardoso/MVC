@@ -6,6 +6,7 @@ define("APP_ROOT", "http://".$_SERVER['HTTP_HOST'].$sPasta);
 include_once(CAMINHO.'exercicios/modulo_1/sessoes/sessao.php');
 include('Config.php');
 include_once('controller/UsuarioController.php');
+date_default_timezone_set('America/Sao_Paulo');
 
 	sessao::start();
 

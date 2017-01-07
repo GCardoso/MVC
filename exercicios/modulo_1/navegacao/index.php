@@ -1,4 +1,6 @@
-
+<?php 
+include_once('../../modulo_2/error/Config.php');
+?>
 
 <!DOCTYPE html>
 <html>

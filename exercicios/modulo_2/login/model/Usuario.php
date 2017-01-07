@@ -8,12 +8,9 @@ class Usuario {
 		return json_decode(file_get_contents('u.json'),true);
 	}
 
-
-	//Salvando dados no arquivo Novocadstro.Json;
+	//Salvando dados no arquivo u.Json;
 	public static function salvar ($aDados) {
-        $fp = fopen('novocadastro.json','w');
-        var_dump($fp);
-        fwrite($fp,'{'. '"'.$aDados['login'].'"'.':'.json_encode($aDados)."}");
-        fclose($fp);
+        file_put_contents('u.json',json_encode($aDados),FILE_APPEND);
+        return true;
     }
 }

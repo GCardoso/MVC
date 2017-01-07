@@ -1435,3 +1435,41 @@ Stack trace:
 [06-Jan-2017 18:35:53 America/Sao_Paulo] PHP Notice:  Undefined index: logado in /var/www/html/exercicios/trainee_av1_marcus/avaliacao/classes/Sessao.php on line 25
 [06-Jan-2017 18:35:53 America/Sao_Paulo] PHP Notice:  Undefined index: id_perfil in /var/www/html/exercicios/trainee_av1_marcus/avaliacao/classes/Sessao.php on line 25
 [06-Jan-2017 18:35:53 America/Sao_Paulo] PHP Notice:  Undefined index: id_perfil in /var/www/html/exercicios/trainee_av1_marcus/avaliacao/classes/Sessao.php on line 25
+[07-Jan-2017 12:27:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_perfil' in 'field list' in C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\model\Usuario.php:16
+Stack trace:
+#0 C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\model\Usuario.php(16): PDO->query('SELECT id_user,...')
+#1 C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\classes\Login.php(15): Usuario::listar()
+#2 C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\controller\LoginController.php(34): Login::autenticar('admin', '1234567')
+#3 C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\index.php(42): LoginController->logar()
+#4 {main}
+  thrown in C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\model\Usuario.php on line 16
+[07-Jan-2017 12:28:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_perfil' in 'field list' in C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\model\Usuario.php:16
+Stack trace:
+#0 C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\model\Usuario.php(16): PDO->query('SELECT id_user,...')
+#1 C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\classes\Login.php(15): Usuario::listar()
+#2 C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\controller\LoginController.php(34): Login::autenticar('admin', '123456')
+#3 C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\index.php(42): LoginController->logar()
+#4 {main}
+  thrown in C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\model\Usuario.php on line 16
+[07-Jan-2017 12:35:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'av1_marcus.av1_empresa' doesn't exist in C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\model\Empresa.php:38
+Stack trace:
+#0 C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\model\Empresa.php(38): PDO->query('SELECT id_empre...')
+#1 C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\controller\EmpresaController.php(47): Empresa::listar()
+#2 C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\index.php(42): EmpresaController->gerirEmpresa()
+#3 {main}
+  thrown in C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\model\Empresa.php on line 38
+[07-Jan-2017 12:43:25 UTC] PHP Notice:  Undefined offset: 0 in C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\classes\MoobiDatabaseHandler.php on line 52
+[07-Jan-2017 12:43:25 UTC] PHP Stack trace:
+[07-Jan-2017 12:43:25 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\index.php:0
+[07-Jan-2017 12:43:25 UTC] PHP   2. LoginController->logar() C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\index.php:42
+[07-Jan-2017 12:43:25 UTC] PHP   3. Login::autenticar() C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\controller\LoginController.php:34
+[07-Jan-2017 12:43:25 UTC] PHP   4. Usuario::listar() C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\classes\Login.php:15
+[07-Jan-2017 12:43:25 UTC] PHP   5. MoobiDatabaseHandler::getInstance() C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\model\Usuario.php:14
+[07-Jan-2017 12:43:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\classes\MoobiDatabaseHandler.php:75
+Stack trace:
+#0 C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\model\Usuario.php(15): MoobiDatabaseHandler::begin(NULL)
+#1 C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\classes\Login.php(15): Usuario::listar()
+#2 C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\controller\LoginController.php(34): Login::autenticar('asdklasj', 'ajskhdkah')
+#3 C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\index.php(42): LoginController->logar()
+#4 {main}
+  thrown in C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\classes\MoobiDatabaseHandler.php on line 75

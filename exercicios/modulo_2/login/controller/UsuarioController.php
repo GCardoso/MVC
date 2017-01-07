@@ -14,12 +14,11 @@ class UsuarioController extends AbstractController {
         require "view/paginaInicial.php";
 	}
 
-	function cadastro () {
 
+	function cadastro () {
         $aDados = array('login' => $_POST['nome'],'senha' => $_POST['senha'],
                  'adminstrador' => $_POST['tipo']);
         $bResultado = Usuario::salvar($aDados);
-
         if(!$bResultado) {
             echo "<script>alert('Nao possivel cadastrar'); window.location = 
            'http://localhost/exercicios/modulo_2/login/usuario/paginainicial' </script>";
@@ -27,7 +26,8 @@ class UsuarioController extends AbstractController {
             header('location:'.APP_ROOT.'usuario/cadastrar');
     }
 
-    function cadastrar () {
+
+     function cadastrar () {
         require 'view/cadastrar.php';
     }
 

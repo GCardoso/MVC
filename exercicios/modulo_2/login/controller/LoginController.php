@@ -15,6 +15,7 @@ class LoginController extends AbstractController {
 
 	function sair(){
 		session_destroy();
+		
 		header('location:'.APP_ROOT.'login/entrar');
 	}
 

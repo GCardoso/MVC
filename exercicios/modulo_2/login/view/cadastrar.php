@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
   <title>Cadastro</title>
   <meta charset="utf-8">
@@ -32,7 +32,7 @@
             <input type="password" placeholder="senha" name="senha" required />
              User Admin <input type="radio" name="tipo" value="true"/>
             <input type="radio" name="tipo" value="false" checked/> User Comun
-            <button>login</button>
+            <button>cadastro</button>
         </form>
     </div>
 </div>

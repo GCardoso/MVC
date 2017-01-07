@@ -7,3 +7,7 @@ CREATE TABLE av1_situacao (id_situacao int NOT NULL PRIMARY KEY AUTO_INCREMENT,n
 
 -- Criando tabela cargos
 CREATE TABLE av1_cargos(id_cargo int NOT NULL PRIMARY KEY AUTO_INCREMENT,nome varchar(32) NOT NULL);
+
+
+-- Criando Admin
+ INSERT INTO av1_usuarios (login,senha,id_perfil) VALUES ('admin','123456',1)
