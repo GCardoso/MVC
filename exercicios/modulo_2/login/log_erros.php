@@ -129,3 +129,23 @@
 [31-Dec-2016 18:32:39 UTC] PHP   3. require() C:\wamp64\www\exercicios\modulo_2\login\controller\UsuarioController.php:36
 [31-Dec-2016 18:33:05 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\wamp64\www\exercicios\modulo_2\login\view\listaUsuarios.php on line 27
 [31-Dec-2016 18:33:06 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\wamp64\www\exercicios\modulo_2\login\view\listaUsuarios.php on line 27
+[31-Dec-2016 18:40:34 UTC] PHP Notice:  Undefined index: logado in C:\wamp64\www\exercicios\modulo_2\login\view\cadastrar.php on line 23
+[31-Dec-2016 18:40:34 UTC] PHP Stack trace:
+[31-Dec-2016 18:40:34 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_2\login\index.php:0
+[31-Dec-2016 18:40:34 UTC] PHP   2. UsuarioController->cadastrar() C:\wamp64\www\exercicios\modulo_2\login\index.php:40
+[31-Dec-2016 18:40:34 UTC] PHP   3. require() C:\wamp64\www\exercicios\modulo_2\login\controller\UsuarioController.php:31
+[31-Dec-2016 18:40:34 UTC] PHP Notice:  Undefined index: time in C:\wamp64\www\exercicios\modulo_2\login\view\cadastrar.php on line 23
+[31-Dec-2016 18:40:34 UTC] PHP Stack trace:
+[31-Dec-2016 18:40:34 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_2\login\index.php:0
+[31-Dec-2016 18:40:34 UTC] PHP   2. UsuarioController->cadastrar() C:\wamp64\www\exercicios\modulo_2\login\index.php:40
+[31-Dec-2016 18:40:34 UTC] PHP   3. require() C:\wamp64\www\exercicios\modulo_2\login\controller\UsuarioController.php:31
+[31-Dec-2016 18:40:45 UTC] PHP Notice:  Undefined index: logado in C:\wamp64\www\exercicios\modulo_2\login\view\listaUsuarios.php on line 22
+[31-Dec-2016 18:40:45 UTC] PHP Stack trace:
+[31-Dec-2016 18:40:45 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_2\login\index.php:0
+[31-Dec-2016 18:40:45 UTC] PHP   2. UsuarioController->listar() C:\wamp64\www\exercicios\modulo_2\login\index.php:40
+[31-Dec-2016 18:40:45 UTC] PHP   3. require() C:\wamp64\www\exercicios\modulo_2\login\controller\UsuarioController.php:36
+[31-Dec-2016 18:40:45 UTC] PHP Notice:  Undefined index: time in C:\wamp64\www\exercicios\modulo_2\login\view\listaUsuarios.php on line 22
+[31-Dec-2016 18:40:45 UTC] PHP Stack trace:
+[31-Dec-2016 18:40:45 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_2\login\index.php:0
+[31-Dec-2016 18:40:45 UTC] PHP   2. UsuarioController->listar() C:\wamp64\www\exercicios\modulo_2\login\index.php:40
+[31-Dec-2016 18:40:45 UTC] PHP   3. require() C:\wamp64\www\exercicios\modulo_2\login\controller\UsuarioController.php:36

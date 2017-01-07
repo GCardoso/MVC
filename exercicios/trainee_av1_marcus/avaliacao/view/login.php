@@ -1,3 +1,6 @@
+<?php
+include_once(AVISOS);
+?>
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -12,8 +15,8 @@
   <div class="form">
     <legend><h1>Moobitech<h1></legend>
     <form class="login-form" method="post" action="logar">
-        <input type="text" placeholder="usuario"  name="nome" required />
-        <input type="password" placeholder="senha" name="senha" required />
+        <input type="text" placeholder="usuario"  name="nome" />
+        <input type="password" placeholder="senha" name="senha" />
         <button>login</button>
     </form>
   </div>
