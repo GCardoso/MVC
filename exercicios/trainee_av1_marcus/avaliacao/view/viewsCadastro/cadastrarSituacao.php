@@ -45,6 +45,7 @@
             </div>
         </li>
     </ul>
+    <br>
 <div class="login-page">
   <div class="form">
     <legend><h1>Cadastro de Situação<h1></legend></br>

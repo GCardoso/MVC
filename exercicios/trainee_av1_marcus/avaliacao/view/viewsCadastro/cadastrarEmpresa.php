@@ -45,7 +45,8 @@
         </div>
     </li>
 </ul>
-    <div class="login-page">
+<br>
+<div class="login-page">
   <div class="form">
     <legend><h1>Cadastro de Empresa<h1></legend></br>
     <form class="login-form" method="post" action="registrar">

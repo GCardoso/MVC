@@ -29,6 +29,7 @@
     </ul>
   </div>
 </nav>
+<br>
 <div class="login-page">
   <div class="form">
     <legend><h1>Cadastro de Cargo<h1></legend></br>
