@@ -1473,3 +1473,26 @@ Stack trace:
 #3 C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\index.php(42): LoginController->logar()
 #4 {main}
   thrown in C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\classes\MoobiDatabaseHandler.php on line 75
+[08-Jan-2017 03:12:12 UTC] PHP Notice:  Undefined index: logado in C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\classes\Sessao.php on line 25
+[08-Jan-2017 03:12:12 UTC] PHP Stack trace:
+[08-Jan-2017 03:12:12 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\index.php:0
+[08-Jan-2017 03:12:12 UTC] PHP   2. AbstractController->__construct() C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\index.php:35
+[08-Jan-2017 03:12:12 UTC] PHP   3. Login::validarAcesso() C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\controller\AbstractController.php:13
+[08-Jan-2017 03:12:12 UTC] PHP   4. Sessao::getsessao() C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\classes\Login.php:10
+[08-Jan-2017 03:12:12 UTC] PHP Notice:  Undefined index: id_perfil in C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\classes\Sessao.php on line 25
+[08-Jan-2017 03:12:12 UTC] PHP Stack trace:
+[08-Jan-2017 03:12:12 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\index.php:0
+[08-Jan-2017 03:12:12 UTC] PHP   2. CargoController->editar() C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\index.php:42
+[08-Jan-2017 03:12:12 UTC] PHP   3. Sessao::getsessao() C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\controller\CargoController.php:75
+[08-Jan-2017 03:12:12 UTC] PHP Notice:  Undefined index: logado in C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\classes\Sessao.php on line 25
+[08-Jan-2017 03:12:12 UTC] PHP Stack trace:
+[08-Jan-2017 03:12:12 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\index.php:0
+[08-Jan-2017 03:12:12 UTC] PHP   2. CargoController->editar() C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\index.php:42
+[08-Jan-2017 03:12:12 UTC] PHP   3. require() C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\controller\CargoController.php:78
+[08-Jan-2017 03:12:12 UTC] PHP   4. Sessao::getsessao() C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\view\viewsEditar\editarCargoUser.php:29
+[08-Jan-2017 03:12:12 UTC] PHP Notice:  Undefined index: time in C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\classes\Sessao.php on line 25
+[08-Jan-2017 03:12:12 UTC] PHP Stack trace:
+[08-Jan-2017 03:12:12 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\index.php:0
+[08-Jan-2017 03:12:12 UTC] PHP   2. CargoController->editar() C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\index.php:42
+[08-Jan-2017 03:12:12 UTC] PHP   3. require() C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\controller\CargoController.php:78
+[08-Jan-2017 03:12:12 UTC] PHP   4. Sessao::getsessao() C:\wamp64\www\exercicios\trainee_av1_marcus\avaliacao\view\viewsEditar\editarCargoUser.php:29

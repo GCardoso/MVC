@@ -7,30 +7,45 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../../css/help.css">
   <link rel="stylesheet" type="text/css" href="../../css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../../css/menu.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body style="height:1500px">  
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="../<?php echo APP_ERROS."avaliacao/usuario/adminpage"?>">Moobitech</a>
-    </div>
-    <ul class="nav navbar-nav">
-        <li><a href= "../<?php echo APP_ERROS."avaliacao/usuario/adminpage" ?>">Home</a></li>
-        <li><a href="../<?php echo APP_ERROS."avaliacao/usuario/cadastrar"?>">Cadastro De Usuarios</a></li>
-        <li><a href="../<?php echo APP_ERROS."avaliacao/usuario/gerenciarUsuarios"?>">Gerir Usuarios</a></li>
-        <li><a href="../../empresa/cadastro">Cadastrar Empresa</a></li>
-        <li><a href="../../empresa/gerirEmpresa">Gerir Empresa</a></li>
-        <li><a href="<?php echo APP_ERROS."situacao/cadastrar"?>">Cadastrar Situação</a></li>
-        <li class="active" ><a href="<?php echo APP_ERROS."situacao/gerenciarSituacao"?>">Gerir Situações</a></li>
-        <li><a href="<?php echo APP_ERROS."cargo/cadastrar"?>">Cadastrar Cargos</a></li>
-        <li ><a href="<?php echo APP_ERROS."cargo/gerenciarCargo"?>">Gerir Cargo</a></li>
-        <li><a href="../../login/sair">Deslogar</a>
-        <li><a> Bem vindo : <?php echo Sessao::getsessao('logado').",Logou as ".":". Sessao::getsessao('time'); ?> </a></li>
-    </ul>
-  </div>
-</nav>
+<body style="height:1500px">
+<ul>
+    <li><a href="<?php echo APP_ERROS."usuario/adminpage" ?>">Home</a></li>
+    <li class="dropdown1"><a href="javascript:void(0)" class="dropbtn">Acesso</a>
+        <div class="dropdown1-content">
+            <a><?php echo  "Usuario:".Sessao::getsessao('logado')?></a>
+            <a>Logou as : <?php echo Sessao::getsessao('time'); ?></a>
+            <a href="../../login/sair">Deslogar</a>
+        </div>
+    </li>
+    <li class="dropdown1"><a href="javascript:void(0)" class="dropbtn">Aréa De Usuario</a>
+        <div class="dropdown1-content">
+            <a href="../<?php echo APP_ERROS."avaliacao/usuario/cadastrar"?>">Cadastro De Usuarios</a>
+            <a href="../<?php echo APP_ERROS."avaliacao/usuario/gerenciarUsuarios"?>">Gerir Usuarios</a>
+        </div>
+    </li>
+    <li class="dropdown1"><a href="javascript:void(0)" class="dropbtn">Aréa De Empresa</a>
+        <div class="dropdown1-content">
+            <a href="../../empresa/cadastro">Cadastrar Empresa</a>
+            <a href="../../empresa/gerirEmpresa">Gerir Empresa</a>
+        </div>
+    </li>
+    <li class="dropdown1"><a href="javascript:void(0)" class="dropbtn">Aréa De Situação</a>
+        <div class="dropdown1-content">
+            <a href="<?php echo APP_ERROS."situacao/cadastrar"?>">Cadastrar Situação</a>
+            <a href="<?php echo APP_ERROS."situacao/gerenciarSituacao"?>">Gerir Situações</a>
+        </div>
+    </li>
+    <li class="dropdown1"><a href="javascript:void(0)" class="dropbtn">Aréa De Cargos</a>
+        <div class="dropdown1-content">
+            <a href="<?php echo APP_ERROS."cargo/cadastrar"?>">Cadastrar Cargos</a>
+            <a href="<?php echo APP_ERROS."cargo/gerenciarCargo"?>">Gerir Cargos</a>
+        </div>
+    </li>
+</ul>
 <?php foreach($aCargo as $key) { ?>
 <div class="login-page">
   <div class="form">

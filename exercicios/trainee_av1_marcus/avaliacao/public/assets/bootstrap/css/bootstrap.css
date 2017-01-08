@@ -42,13 +42,8 @@ audio:not([controls]) {
 template {
   display: none;
 }
-a {
-  background-color: transparent;
-}
-a:active,
-a:hover {
-  outline: 0;
-}
+
+
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -3057,7 +3052,7 @@ fieldset[disabled] a.btn {
   pointer-events: none;
 }
 .btn-default {
-  color: ##2cef00;
+  color: #333;
   background-color: #fff;
   border-color: #ccc;
 }
@@ -3510,7 +3505,8 @@ tbody.collapse.in {
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
 }
-.dropup,.dropdown {
+.dropup,
+.dropdown {
   position: relative;
 }
 .dropdown-toggle:focus {
