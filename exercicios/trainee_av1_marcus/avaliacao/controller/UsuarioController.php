@@ -1,21 +1,10 @@
 <?php
 
 include_once('controller/AbstractController.php');
-include_once(SESSAO);
-include_once(CONSTANTES);
 include_once('model/Usuario.php');
 
 class UsuarioController extends AbstractController {
 
-	public function  definirAcesso () {
-
-		if(Sessao::getsessao('id_perfil') == Constantes::$iADM_ID){   
-				header('location:'.LOCAL.'usuario/adminpage');				
-			} else if(Sessao::getsessao('id_perfil') == Constantes::$iUSER_COMUN_ID) {
-				header('location:'.LOCAL.'usuario/userpage');
-			} 
-
-	}
 
 	public function adminPage () {
 
@@ -47,12 +36,12 @@ class UsuarioController extends AbstractController {
 		if(!$bResultado){
 
 			echo "<script>alert('Nao possivel cadastrar');
-				  window.location='http://localhost/exercicios/trainee_av1_marcus/avaliacao/usuario/cadastrar'</script>";
+				  window.location='".LOCAL."usuario/cadastrar'</script>";
 
 		} else {
 
 			echo "<script>alert('Cadastro efetuado com sucesso');
-				  window.location='http://localhost/exercicios/trainee_av1_marcus/avaliacao/usuario/cadastrar'</script>";
+				  window.location='".LOCAL."usuario/cadastrar'</script>";
 		} 
 	}
 
@@ -76,7 +65,7 @@ class UsuarioController extends AbstractController {
 
 		if($bResultado) {
 			echo "<script>alert('Remoção efetuado com sucesso');
-				  window.location='http://localhost/exercicios/trainee_av1_marcus/avaliacao/usuario/gerenciarUsuarios'</script>";
+				  window.location='".LOCAL."usuario/gerenciarUsuarios'</script>";
 		}
 	}
 
@@ -93,7 +82,7 @@ class UsuarioController extends AbstractController {
 			
 		if($bResultado) {
 			echo "<script>alert('Atualizaçao efetuada com sucesso');
-				 window.location='http://localhost/exercicios/trainee_av1_marcus/avaliacao/usuario/gerenciarUsuarios'</script>";
+				 window.location='".LOCAL."usuario/gerenciarUsuarios'</script>";
 		} 		
 	}
 }

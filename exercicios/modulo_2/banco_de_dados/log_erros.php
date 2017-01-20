@@ -434,3 +434,93 @@ Stack trace:
 #1 /var/www/html/exercicios/modulo_2/banco_de_dados/demo.php(46): MoobiDatabaseHandler::commit(Object(PDO))
 #2 {main}
   thrown in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 81
+[03-Jan-2017 17:11:24 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 59
+[03-Jan-2017 17:11:24 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php:82
+Stack trace:
+#0 /var/www/html/exercicios/modulo_2/banco_de_dados/demo.php(29): MoobiDatabaseHandler::begin(NULL)
+#1 {main}
+  thrown in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 82
+[03-Jan-2017 17:11:33 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 58
+[03-Jan-2017 17:11:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php:81
+Stack trace:
+#0 /var/www/html/exercicios/modulo_2/banco_de_dados/demo.php(29): MoobiDatabaseHandler::begin(NULL)
+#1 {main}
+  thrown in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 81
+[03-Jan-2017 17:12:22 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 58
+[03-Jan-2017 17:12:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php:81
+Stack trace:
+#0 /var/www/html/exercicios/modulo_2/banco_de_dados/demo.php(29): MoobiDatabaseHandler::begin(NULL)
+#1 {main}
+  thrown in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 81
+[03-Jan-2017 17:12:23 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 58
+[03-Jan-2017 17:12:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php:81
+Stack trace:
+#0 /var/www/html/exercicios/modulo_2/banco_de_dados/demo.php(29): MoobiDatabaseHandler::begin(NULL)
+#1 {main}
+  thrown in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 81
+[03-Jan-2017 17:12:23 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 58
+[03-Jan-2017 17:12:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php:81
+Stack trace:
+#0 /var/www/html/exercicios/modulo_2/banco_de_dados/demo.php(29): MoobiDatabaseHandler::begin(NULL)
+#1 {main}
+  thrown in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 81
+[03-Jan-2017 17:12:36 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 55
+[03-Jan-2017 17:12:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php:78
+Stack trace:
+#0 /var/www/html/exercicios/modulo_2/banco_de_dados/demo.php(29): MoobiDatabaseHandler::begin(NULL)
+#1 {main}
+  thrown in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 78
+[03-Jan-2017 17:13:11 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 55
+[03-Jan-2017 17:13:11 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php:78
+Stack trace:
+#0 /var/www/html/exercicios/modulo_2/banco_de_dados/demo.php(29): MoobiDatabaseHandler::begin(NULL)
+#1 {main}
+  thrown in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 78
+[03-Jan-2017 17:13:12 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 55
+[03-Jan-2017 17:13:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php:78
+Stack trace:
+#0 /var/www/html/exercicios/modulo_2/banco_de_dados/demo.php(29): MoobiDatabaseHandler::begin(NULL)
+#1 {main}
+  thrown in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 78
+[03-Jan-2017 17:13:12 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 55
+[03-Jan-2017 17:13:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php:78
+Stack trace:
+#0 /var/www/html/exercicios/modulo_2/banco_de_dados/demo.php(29): MoobiDatabaseHandler::begin(NULL)
+#1 {main}
+  thrown in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 78
+[03-Jan-2017 17:13:14 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 55
+[03-Jan-2017 17:13:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php:78
+Stack trace:
+#0 /var/www/html/exercicios/modulo_2/banco_de_dados/demo.php(29): MoobiDatabaseHandler::begin(NULL)
+#1 {main}
+  thrown in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 78
+[03-Jan-2017 17:13:14 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 55
+[03-Jan-2017 17:13:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php:78
+Stack trace:
+#0 /var/www/html/exercicios/modulo_2/banco_de_dados/demo.php(29): MoobiDatabaseHandler::begin(NULL)
+#1 {main}
+  thrown in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 78
+[03-Jan-2017 17:13:21 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 55
+[03-Jan-2017 17:13:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php:78
+Stack trace:
+#0 /var/www/html/exercicios/modulo_2/banco_de_dados/demo.php(29): MoobiDatabaseHandler::begin(NULL)
+#1 {main}
+  thrown in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 78
+[03-Jan-2017 17:13:22 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 55
+[03-Jan-2017 17:13:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php:78
+Stack trace:
+#0 /var/www/html/exercicios/modulo_2/banco_de_dados/demo.php(29): MoobiDatabaseHandler::begin(NULL)
+#1 {main}
+  thrown in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 78
+[03-Jan-2017 17:13:22 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 55
+[03-Jan-2017 17:13:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php:78
+Stack trace:
+#0 /var/www/html/exercicios/modulo_2/banco_de_dados/demo.php(29): MoobiDatabaseHandler::begin(NULL)
+#1 {main}
+  thrown in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 78
+[03-Jan-2017 17:13:24 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'av1_Marcus.pessoas' doesn't exist in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php:90
+Stack trace:
+#0 /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php(90): PDOStatement->execute()
+#1 /var/www/html/exercicios/modulo_2/banco_de_dados/demo.php(33): MoobiDatabaseHandler::execute('INSERT INTO pes...', Object(PDO))
+#2 {main}
+  thrown in /var/www/html/exercicios/modulo_2/banco_de_dados/MoobiDatabaseHandler.php on line 90

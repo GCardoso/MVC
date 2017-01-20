@@ -17,6 +17,7 @@
 
     	if(!empty($aConfigJson['user'])) {
     		self::$sUser = $aConfigJson['user'];
+
     	}
 
     	if(!empty($aConfigJson['password'])) {
@@ -38,6 +39,8 @@
 		$host = self::$sHost;
 		$banco = self::$sDataBase;
     	$dns ="mysql:host=$host;dbname=$banco";
+
+
 
 		if (count(self::$aConexao) > 0){
 			return $aConexao[0];	

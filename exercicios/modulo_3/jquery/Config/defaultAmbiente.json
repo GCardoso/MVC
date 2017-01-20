@@ -1,0 +1,16 @@
+// Estudando JSON
+{
+    "nome":"Sindicato Dos Traines",
+    "host":"localhost",
+    "usuario":"root",
+    "password":"root",
+    "database":"av1_Marcus",
+    "local_do_Projeto":"/exercicios/modulo_3/jquery/",
+    "quantidade_por_pagina":3,
+    "chave_SSH" :"AIzaSyBKHd3toTo6nAmVIkeOCkd-MeFiToSiXtI",
+    "GKS": [
+        { "Empresa":"Ford", "modulos":[{"Usuario":[true],"filiado":[false]}] },
+        { "Empresa":"BMW", "modulos":[[]] },
+        { "Empresa":"Fiat", "modulos":[[]] }
+    ]
+ }
