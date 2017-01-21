@@ -110,4 +110,28 @@ class SituacaoController extends AbstractController {
 		    include "view/viewsPaginacao/tabela_ajaxSituacao.php";
 	    }
 	}
+
+	public function cadastrarSituacaoModal () {
+
+		include("view/viewsModal/modalSituacao.php");
+	}
+
+	public function salvarSituacaoModal() {
+		
+		$aSituacao = array('situacao' => $_POST['nome']);
+		$bResultado = Situacao::registrar($aSituacao);
+		$aSit = Situacao::listar();
+		$sHtml = self::createComboSituacao($aSit);
+		echo $sHtml;
+	}
+
+
+	public function createComboSituacao($aArray) {
+		$sHtml = "";
+		
+		foreach ($aArray as $key) {
+			$sHtml .= "<option value= ". $key['id_situacao']." > ".$key['nome']." </option> ";
+		}
+		return $sHtml;
+	}
 }

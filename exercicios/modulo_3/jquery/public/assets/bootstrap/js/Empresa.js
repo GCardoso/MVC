@@ -9,16 +9,30 @@ function editEmpresa(id){
 	});
 }
 
-function salvarEmpresa() {	  	
-	$.ajax({
-		url: caminhoHttp+'empresa/salvarEmpresaModal',
-		type: 'POST',
-		data: $('#formularioEmpresa').serializeArray(),
-		dataType: 'html',
-		success: function(html) {
-			console.log("foi clicado");
-			$("#empresa").html(html);
-		}
+function salvarEmpresa() {
+	$("#formularioEmpresa").submit(function(event) {
+	    $.ajax({
+	    	url: caminhoHttp+"empresa/salvarEmpresaModal",
+	    	type: 'POST',
+	    	dataType: 'html',
+	    	data: $("#formularioEmpresa").serializeArray(),
+	    })
+	    .done(function() {
+	    	console.log("success");
+	    })
+	    .fail(function() {
+	    	console.log("error");
+	    })
+	    .always(function(html) {
+	    	 $("#empresaSelect").html(html);
+			 $("#msg").addClass('alert alert-success');
+			 $("#msg").text("Cadastrado com sucesso");
+			 $("#msg").fadeIn("slow");
+			 $("#msg").delay(800);
+			 $("#msg").fadeOut("slow");
+			 $("#empresa").val("");
+	    });
+	 return false;
 	});
 }
 

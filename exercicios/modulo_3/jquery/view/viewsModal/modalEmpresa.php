@@ -4,7 +4,7 @@
     pattern="[a-zA-Z0-9]+" title="SOMENTE LETRAS e NUMEROS">
     <input type="hidden" name="id_empresa" value="<?php echo  isset($aEmpresa) ? $aEmpresa['id_empresa'] : "" ?>"/>
 	<div class="modal-footer">
-    <button class="btn btn-success" onclick="<?php echo isset($aEmpresa) ? 'updateEmpresa()' : 'salvarEmpresa()' ?>"  id="btn-empresa"  type="submit"> 
+    <button class="btn btn-success" onclick="<?php echo isset($aEmpresa) ? 'updateEmpresa()' : 'salvarEmpresa()' ?>"  id="btn-empresa"> 
 	<?php echo  isset($aEmpresa) ? 'Atualizar' : 'cadastrar' ?></button>
     </label>
 	</div>

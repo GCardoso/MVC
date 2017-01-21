@@ -106,9 +106,7 @@ class EmpresaController extends AbstractController {
 		$aEmpresa = array('nomeEmpresa' => $_POST['empresa']);
 		$bResultado = Empresa::salvar($aEmpresa);
 		$aEmpresa = Empresa::listar();
-
 		include_once("view/AuxiliaresHtml/comboEmpresa.php");
-
 	}
 
 	public function cadastrarEmpresaModal() {
@@ -116,6 +114,5 @@ class EmpresaController extends AbstractController {
 		
 	    include_once('view/viewsModal/modalEmpresa.php');
 	}
-
 
 }

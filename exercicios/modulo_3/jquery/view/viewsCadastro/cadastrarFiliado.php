@@ -9,6 +9,7 @@
    <script type="text/javascript" src="<?php echo LOCAL."public/assets/bootstrap/js/confirm.js"?>"></script>
    <script type="text/javascript" src="<?php echo LOCAL."public/assets/bootstrap/js/Filiado.js"?>"></script>
    <script type="text/javascript" src="<?php echo LOCAL."public/assets/bootstrap/js/Empresa.js"?>"></script>
+   <script type="text/javascript" src="<?php echo LOCAL."public/assets/bootstrap/js/Situacao.js"?>"></script>
 </head>
 <body onload="mensagem()">
 <?php include_once('view/viewsHead/menuAdm.php');?>
@@ -48,7 +49,7 @@
   	  </div>
 	  <div class="form-group col-md-2">
   	  	<label for="empresa2">Empresa  <a href="#"  id="addComboEmpresa" onclick="CadastrarEmpresa()" ><img src="<?php echo LOCAL."imagens/addCombo.png"?>"></a> </label>
-        <select class="form-control" name="empresa" id="empresa" required="">
+        <select class="form-control" name="empresa" id="empresaSelect" required="">
         <option value="">----</option>
         <?php  foreach ($aEmpresas as $key) { ?>
            <option value="<?php echo $key['id_empresa'] ?>"><?php echo $key['nome']; ?></option>
@@ -56,7 +57,7 @@
         </select>
   	  </div>     
 	  <div class="form-group col-md-2">
-  	  	<label for="situacao">Situação <a href="#" id="addComboSituacao" > <img src="<?php echo LOCAL."imagens/addCombo.png"?>"></a></label>
+  	  	<label for="situacao">Situação <a href="#" id="addComboSituacao" onclick="cadastrarSituacao()" > <img src="<?php echo LOCAL."imagens/addCombo.png"?>"></a></label>
   	  	<select class="form-control" name="situacao" id="situacao">
          <option value="" >----</option>
         <?php foreach ($aSituacao as $key) { ?>

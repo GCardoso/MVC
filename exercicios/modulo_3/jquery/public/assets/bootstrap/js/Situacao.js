@@ -9,20 +9,33 @@ function editSituacao(id){
 	});
 }
 
-function salvardependentes() {		  	
+function salvarSituacao() {		
+		$("#formularioSituacao").submit(function(event) {	 
 		$.ajax({
-			url: caminhoHttp+'filiado/salvardependentes/',
+			url: caminhoHttp+'situacao/salvarSituacaoModal',
 			type: 'POST',
-			data: $('#formularioSituacao').serializeArray(),
-			dataType: 'json',
-			success: function(json) {
-				if (json.status) {
-					alert(json.msg);
-				} else {
-					alert(json.msg);
-				}
-			}
+			dataType: 'html',
+			data: $("#formularioSituacao").serializeArray(),
+		})
+		.done(function(html) {
+			  $("#situacao").html(html);
+			  $("#msg").text("Cadastrado com sucesso");
+			  $("#nome").val("");
+		})
+		.fail(function() {
+			console.log("error");
+		})
+		.always(function(html) {
+			 $("#situacao").html(html);
+			 $("#msg").addClass('alert alert-success');
+			 $("#msg").text("Cadastrado com sucesso");
+			 $("#msg").fadeIn("slow");
+			 $("#msg").delay(800);
+			 $("#msg").fadeOut("slow");
+			 $("#nome").val("");
 		});
+		return false;	
+	});  	
 }
 
 function updateSituacao() {
@@ -39,5 +52,21 @@ function updateSituacao() {
 			}
 		}
 	});
+}
 
+function cadastrarSituacao() {
+	$.ajax({
+		url: caminhoHttp+'situacao/cadastrarSituacaoModal',
+		type: 'GET',
+		dataType: 'html',
+	})
+	.done(function(html) {
+		abrirModal(html,"Cadastro de Situação")
+	})
+	.fail(function() {
+		console.log("erro");
+	})
+	.always(function() {
+		console.log("complete");
+	});
 }
