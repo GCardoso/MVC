@@ -121,3 +121,71 @@ Stack trace:
 #3 C:\wamp64\www\exercicios\modulo_3\jquery\index.php(43): SituacaoController->salvarSituacaoModal()
 #4 {main}
   thrown in C:\wamp64\www\exercicios\modulo_3\jquery\classes\MoobiDatabaseHandler.php on line 87
+[21-Jan-2017 00:27:21 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 00:27:21 UTC] PHP Stack trace:
+[21-Jan-2017 00:27:21 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 00:27:21 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 00:27:29 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\CargoController.php on line 12
+[21-Jan-2017 00:27:29 UTC] PHP Stack trace:
+[21-Jan-2017 00:27:29 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 00:27:29 UTC] PHP   2. CargoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 02:28:27 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\UsuarioController.php on line 82
+[21-Jan-2017 02:28:27 UTC] PHP Stack trace:
+[21-Jan-2017 02:28:27 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 02:28:27 UTC] PHP   2. UsuarioController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 02:28:57 UTC] PHP Notice:  Undefined index: numitensCargos in C:\wamp64\www\exercicios\modulo_3\jquery\classes\Sessao.php on line 29
+[21-Jan-2017 02:28:57 UTC] PHP Stack trace:
+[21-Jan-2017 02:28:57 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 02:28:57 UTC] PHP   2. CargoController->gerenciarCargo() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 02:28:57 UTC] PHP   3. require() C:\wamp64\www\exercicios\modulo_3\jquery\controller\CargoController.php:49
+[21-Jan-2017 02:28:57 UTC] PHP   4. Sessao::getsessao() C:\wamp64\www\exercicios\modulo_3\jquery\view\viewsListar\listarCargo.php:10
+[21-Jan-2017 02:28:57 UTC] PHP Notice:  Undefined index: limitPaginaCargos in C:\wamp64\www\exercicios\modulo_3\jquery\classes\Sessao.php on line 29
+[21-Jan-2017 02:28:57 UTC] PHP Stack trace:
+[21-Jan-2017 02:28:57 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 02:28:57 UTC] PHP   2. CargoController->gerenciarCargo() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 02:28:57 UTC] PHP   3. require() C:\wamp64\www\exercicios\modulo_3\jquery\controller\CargoController.php:49
+[21-Jan-2017 02:28:57 UTC] PHP   4. Sessao::getsessao() C:\wamp64\www\exercicios\modulo_3\jquery\view\viewsListar\listarCargo.php:15
+[21-Jan-2017 02:28:58 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\CargoController.php on line 12
+[21-Jan-2017 02:28:58 UTC] PHP Stack trace:
+[21-Jan-2017 02:28:58 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 02:28:58 UTC] PHP   2. CargoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 02:31:35 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\CargoController.php on line 12
+[21-Jan-2017 02:31:35 UTC] PHP Stack trace:
+[21-Jan-2017 02:31:35 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 02:31:35 UTC] PHP   2. CargoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 02:31:37 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\CargoController.php on line 12
+[21-Jan-2017 02:31:37 UTC] PHP Stack trace:
+[21-Jan-2017 02:31:37 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 02:31:37 UTC] PHP   2. CargoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 02:49:53 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\CargoController.php on line 12
+[21-Jan-2017 02:49:53 UTC] PHP Stack trace:
+[21-Jan-2017 02:49:53 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 02:49:53 UTC] PHP   2. CargoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 02:49:56 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\CargoController.php on line 12
+[21-Jan-2017 02:49:56 UTC] PHP Stack trace:
+[21-Jan-2017 02:49:56 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 02:49:56 UTC] PHP   2. CargoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 02:53:15 UTC] PHP Notice:  Undefined index: cargo in C:\wamp64\www\exercicios\modulo_3\jquery\controller\CargoController.php on line 100
+[21-Jan-2017 02:53:15 UTC] PHP Stack trace:
+[21-Jan-2017 02:53:15 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 02:53:15 UTC] PHP   2. CargoController->salvarCargoModal() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 02:53:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'nome' cannot be null in C:\wamp64\www\exercicios\modulo_3\jquery\classes\MoobiDatabaseHandler.php:87
+Stack trace:
+#0 C:\wamp64\www\exercicios\modulo_3\jquery\classes\MoobiDatabaseHandler.php(87): PDOStatement->execute(Array)
+#1 C:\wamp64\www\exercicios\modulo_3\jquery\model\Cargo.php(17): MoobiDatabaseHandler::execute('INSERT INTO av1...', Array, Object(PDO))
+#2 C:\wamp64\www\exercicios\modulo_3\jquery\controller\CargoController.php(101): Cargo::salvar(Array)
+#3 C:\wamp64\www\exercicios\modulo_3\jquery\index.php(43): CargoController->salvarCargoModal()
+#4 {main}
+  thrown in C:\wamp64\www\exercicios\modulo_3\jquery\classes\MoobiDatabaseHandler.php on line 87
+[21-Jan-2017 02:53:39 UTC] PHP Notice:  Undefined index: cargo in C:\wamp64\www\exercicios\modulo_3\jquery\controller\CargoController.php on line 100
+[21-Jan-2017 02:53:39 UTC] PHP Stack trace:
+[21-Jan-2017 02:53:39 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 02:53:39 UTC] PHP   2. CargoController->salvarCargoModal() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 02:53:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'nome' cannot be null in C:\wamp64\www\exercicios\modulo_3\jquery\classes\MoobiDatabaseHandler.php:87
+Stack trace:
+#0 C:\wamp64\www\exercicios\modulo_3\jquery\classes\MoobiDatabaseHandler.php(87): PDOStatement->execute(Array)
+#1 C:\wamp64\www\exercicios\modulo_3\jquery\model\Cargo.php(17): MoobiDatabaseHandler::execute('INSERT INTO av1...', Array, Object(PDO))
+#2 C:\wamp64\www\exercicios\modulo_3\jquery\controller\CargoController.php(101): Cargo::salvar(Array)
+#3 C:\wamp64\www\exercicios\modulo_3\jquery\index.php(43): CargoController->salvarCargoModal()
+#4 {main}
+  thrown in C:\wamp64\www\exercicios\modulo_3\jquery\classes\MoobiDatabaseHandler.php on line 87

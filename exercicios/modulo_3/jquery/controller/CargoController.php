@@ -95,5 +95,30 @@ class CargoController extends AbstractController {
 	}
 
 
+	public function salvarCargoModal() {
+
+		$aCargo = array('cargo' => $_POST['nome']);
+		$bResultado = Cargo::salvar($aCargo);
+		$aCargos = Cargo::listar();
+		$sHtml = self::createComboCargo($aCargos);
+		echo $sHtml;
+	}
+
+
+	public function createComboCargo($aArray) {
+		$sHtml = "";
+		foreach ($aArray as $key) {
+			$sHtml .= "<option value= ". $key['id_cargo']." > ".$key['nome']." </option>";
+		}
+		return $sHtml;
+	}
+
+
+	public function cadastroCargoModal() {
+
+		include_once("view/viewsModal/modalCargo.php");
+	}
+
+
 		
 }

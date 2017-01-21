@@ -10,6 +10,7 @@
    <script type="text/javascript" src="<?php echo LOCAL."public/assets/bootstrap/js/Filiado.js"?>"></script>
    <script type="text/javascript" src="<?php echo LOCAL."public/assets/bootstrap/js/Empresa.js"?>"></script>
    <script type="text/javascript" src="<?php echo LOCAL."public/assets/bootstrap/js/Situacao.js"?>"></script>
+   <script type="text/javascript" src="<?php echo LOCAL."public/assets/bootstrap/js/Cargo.js"?>"></script>
 </head>
 <body onload="mensagem()">
 <?php include_once('view/viewsHead/menuAdm.php');?>
@@ -66,7 +67,7 @@
         </select>
   	  </div>
       <div class="form-group col-md-2">
-        <label for="cargo">Cargo  <a hre="#" id="addComboCargo" > <img src="<?php echo LOCAL."imagens/addCombo.png"?>"></a></label>
+        <label for="cargo">Cargo  <a hre="#" id="addComboCargo" onclick="cadastrarCargo()" > <img src="<?php echo LOCAL."imagens/addCombo.png"?>"></a> </label>
          <select class="form-control" name="cargo" id="cargo">  
          <option value="">----</option> 
         <?php foreach ($aCargos as $key) {?>
@@ -96,7 +97,7 @@
 <div class="col-xs-12" id='dependente' style="display: none">
 <legend><h2>Lista de Dependentes</h2></legend>
 <legend><b>Adicionar Novo dependente</b> <a  href="#" onclick="cadastrarDependente()"><img src="../imagens/plus.png">
-</a></legend>
+</a> </legend>
 <table class="table table-bordered">
   <tr bgcolor="white">
       <th><h2>Nome do Dependente</h2></th>
