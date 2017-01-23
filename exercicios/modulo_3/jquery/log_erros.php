@@ -189,3 +189,173 @@ Stack trace:
 #3 C:\wamp64\www\exercicios\modulo_3\jquery\index.php(43): CargoController->salvarCargoModal()
 #4 {main}
   thrown in C:\wamp64\www\exercicios\modulo_3\jquery\classes\MoobiDatabaseHandler.php on line 87
+[21-Jan-2017 02:56:27 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\CargoController.php on line 12
+[21-Jan-2017 02:56:27 UTC] PHP Stack trace:
+[21-Jan-2017 02:56:27 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 02:56:28 UTC] PHP   2. CargoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:13:17 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:13:17 UTC] PHP Stack trace:
+[21-Jan-2017 03:13:17 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:13:17 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:13:18 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:13:18 UTC] PHP Stack trace:
+[21-Jan-2017 03:13:18 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:13:18 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:13:19 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:13:19 UTC] PHP Stack trace:
+[21-Jan-2017 03:13:19 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:13:19 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:13:20 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:13:20 UTC] PHP Stack trace:
+[21-Jan-2017 03:13:20 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:13:20 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:13:22 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:13:22 UTC] PHP Stack trace:
+[21-Jan-2017 03:13:22 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:13:22 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:13:23 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:13:23 UTC] PHP Stack trace:
+[21-Jan-2017 03:13:23 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:13:23 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:13:25 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:13:25 UTC] PHP Stack trace:
+[21-Jan-2017 03:13:25 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:13:25 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:13:26 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:13:26 UTC] PHP Stack trace:
+[21-Jan-2017 03:13:26 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:13:26 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:13:28 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:13:28 UTC] PHP Stack trace:
+[21-Jan-2017 03:13:28 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:13:28 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:13:29 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:13:29 UTC] PHP Stack trace:
+[21-Jan-2017 03:13:29 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:13:29 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:13:31 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:13:31 UTC] PHP Stack trace:
+[21-Jan-2017 03:13:31 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:13:31 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:14:55 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:14:55 UTC] PHP Stack trace:
+[21-Jan-2017 03:14:55 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:14:55 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:14:56 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:14:56 UTC] PHP Stack trace:
+[21-Jan-2017 03:14:56 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:14:56 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:14:57 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:14:57 UTC] PHP Stack trace:
+[21-Jan-2017 03:14:57 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:14:57 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:14:57 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:14:57 UTC] PHP Stack trace:
+[21-Jan-2017 03:14:57 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:14:57 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:14:57 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:14:57 UTC] PHP Stack trace:
+[21-Jan-2017 03:14:57 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:14:57 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:14:57 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:14:57 UTC] PHP Stack trace:
+[21-Jan-2017 03:14:57 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:14:57 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:14:59 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:14:59 UTC] PHP Stack trace:
+[21-Jan-2017 03:14:59 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:14:59 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:14:59 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:14:59 UTC] PHP Stack trace:
+[21-Jan-2017 03:14:59 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:14:59 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:15:00 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:15:00 UTC] PHP Stack trace:
+[21-Jan-2017 03:15:00 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:15:00 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:15:00 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:15:00 UTC] PHP Stack trace:
+[21-Jan-2017 03:15:00 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:15:00 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:15:01 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:15:01 UTC] PHP Stack trace:
+[21-Jan-2017 03:15:01 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:15:01 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:15:01 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:15:01 UTC] PHP Stack trace:
+[21-Jan-2017 03:15:01 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:15:01 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:15:11 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:15:11 UTC] PHP Stack trace:
+[21-Jan-2017 03:15:11 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:15:11 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:15:42 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:15:42 UTC] PHP Stack trace:
+[21-Jan-2017 03:15:42 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:15:42 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:15:45 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:15:45 UTC] PHP Stack trace:
+[21-Jan-2017 03:15:45 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:15:45 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:15:46 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:15:46 UTC] PHP Stack trace:
+[21-Jan-2017 03:15:46 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:15:46 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:16:11 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:16:11 UTC] PHP Stack trace:
+[21-Jan-2017 03:16:11 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:16:11 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:16:42 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\CargoController.php on line 12
+[21-Jan-2017 03:16:42 UTC] PHP Stack trace:
+[21-Jan-2017 03:16:42 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:16:42 UTC] PHP   2. CargoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:38:47 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\UsuarioController.php on line 82
+[21-Jan-2017 03:38:47 UTC] PHP Stack trace:
+[21-Jan-2017 03:38:47 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:38:47 UTC] PHP   2. UsuarioController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:44:37 UTC] PHP Notice:  Undefined index: numitensCargos in C:\wamp64\www\exercicios\modulo_3\jquery\classes\Sessao.php on line 29
+[21-Jan-2017 03:44:37 UTC] PHP Stack trace:
+[21-Jan-2017 03:44:37 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:44:37 UTC] PHP   2. CargoController->gerenciarCargo() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:44:37 UTC] PHP   3. require() C:\wamp64\www\exercicios\modulo_3\jquery\controller\CargoController.php:46
+[21-Jan-2017 03:44:37 UTC] PHP   4. Sessao::getsessao() C:\wamp64\www\exercicios\modulo_3\jquery\view\viewsListar\listarCargo.php:10
+[21-Jan-2017 03:44:37 UTC] PHP Notice:  Undefined index: limitPaginaCargos in C:\wamp64\www\exercicios\modulo_3\jquery\classes\Sessao.php on line 29
+[21-Jan-2017 03:44:38 UTC] PHP Stack trace:
+[21-Jan-2017 03:44:38 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:44:38 UTC] PHP   2. CargoController->gerenciarCargo() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:44:38 UTC] PHP   3. require() C:\wamp64\www\exercicios\modulo_3\jquery\controller\CargoController.php:46
+[21-Jan-2017 03:44:38 UTC] PHP   4. Sessao::getsessao() C:\wamp64\www\exercicios\modulo_3\jquery\view\viewsListar\listarCargo.php:15
+[21-Jan-2017 03:44:38 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\CargoController.php on line 12
+[21-Jan-2017 03:44:38 UTC] PHP Stack trace:
+[21-Jan-2017 03:44:38 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:44:38 UTC] PHP   2. CargoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:44:41 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\SituacaoController.php on line 108
+[21-Jan-2017 03:44:41 UTC] PHP Stack trace:
+[21-Jan-2017 03:44:41 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:44:41 UTC] PHP   2. SituacaoController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 03:44:42 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\UsuarioController.php on line 82
+[21-Jan-2017 03:44:42 UTC] PHP Stack trace:
+[21-Jan-2017 03:44:42 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 03:44:42 UTC] PHP   2. UsuarioController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 15:05:00 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\UsuarioController.php on line 82
+[21-Jan-2017 15:05:00 UTC] PHP Stack trace:
+[21-Jan-2017 15:05:00 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 15:05:00 UTC] PHP   2. UsuarioController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 15:05:42 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\UsuarioController.php on line 82
+[21-Jan-2017 15:05:42 UTC] PHP Stack trace:
+[21-Jan-2017 15:05:42 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 15:05:42 UTC] PHP   2. UsuarioController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 15:05:43 UTC] PHP Notice:  Undefined variable: aUsuarios in C:\wamp64\www\exercicios\modulo_3\jquery\view\gerirUsuarios.php on line 23
+[21-Jan-2017 15:05:43 UTC] PHP Stack trace:
+[21-Jan-2017 15:05:43 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 15:05:43 UTC] PHP   2. UsuarioController->gerenciarUsuarios() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 15:05:43 UTC] PHP   3. require() C:\wamp64\www\exercicios\modulo_3\jquery\controller\UsuarioController.php:46
+[21-Jan-2017 15:05:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\exercicios\modulo_3\jquery\view\gerirUsuarios.php on line 23
+[21-Jan-2017 15:05:43 UTC] PHP Stack trace:
+[21-Jan-2017 15:05:43 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 15:05:43 UTC] PHP   2. UsuarioController->gerenciarUsuarios() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[21-Jan-2017 15:05:43 UTC] PHP   3. require() C:\wamp64\www\exercicios\modulo_3\jquery\controller\UsuarioController.php:46
+[21-Jan-2017 15:05:43 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\UsuarioController.php on line 82
+[21-Jan-2017 15:05:43 UTC] PHP Stack trace:
+[21-Jan-2017 15:05:43 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[21-Jan-2017 15:05:43 UTC] PHP   2. UsuarioController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43

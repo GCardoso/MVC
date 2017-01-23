@@ -12,10 +12,7 @@ class CargoController extends AbstractController {
 	    $aValor = Cargo::paginacao($_POST['pagina']);
 	    if(!empty($aValor)){
 		    include "view/viewsPaginacao/tabela_ajaxCargos.php";
-	    } else {
-	    	echo "<td>Nao tem mais itens</td>";
-
-	    }	
+	    } 	
 	}
 
 	public function cadastrar () {

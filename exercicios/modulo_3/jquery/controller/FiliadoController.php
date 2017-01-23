@@ -61,11 +61,11 @@ class FiliadoController extends AbstractController {
 
       	Sessao::setsessao($aDependente['chave'],$aDependente);
 	    
-	    if (true) {
+	    /*if (true) {
 	    	echo json_encode(['status' => true, 'msg' => 'Salvo com sucesso!']);
 	    } else {
 	    	echo json_encode(['status' => false, 'msg' => 'Erro ao salvar!']);
-	    }
+	    } */
 	}
 
 	public function listaDependentes () {

@@ -38,20 +38,25 @@ function cadastrarDependente() {
 		}
 	});
 }
-function salvardependentes() {		  	
-		$.ajax({
-			url: caminhoHttp+'filiado/salvardependentes/',
-			type: 'POST',
-			data: $('#formularioDependente').serializeArray(),
-			dataType: 'json',
-			success: function(json) {
-				if (json.status) {
-					alert(json.msg);
-				} else {
-					alert(json.msg);
-				}
-			}
-		});
+function salvardependentes() {	
+		$("#formularioDependente").submit(function(event) {
+			$.ajax({
+				url: caminhoHttp+'filiado/salvardependentes/',
+				type: 'POST',
+				dataType: 'json',
+				data: $("#formularioDependente").serializeArray(),
+			})
+			.done(function() {
+				console.log("success");
+			})
+			.fail(function() {
+				console.log("error");
+			})
+			.always(function(json) {
+				console.log("complete");
+			});
+		return false;
+	});	  	
 }
 
 function updateDependentes () {
