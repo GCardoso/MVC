@@ -359,3 +359,7 @@ Stack trace:
 [21-Jan-2017 15:05:43 UTC] PHP Stack trace:
 [21-Jan-2017 15:05:43 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
 [21-Jan-2017 15:05:43 UTC] PHP   2. UsuarioController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43
+[23-Jan-2017 10:49:19 UTC] PHP Notice:  Undefined index: pagina in C:\wamp64\www\exercicios\modulo_3\jquery\controller\UsuarioController.php on line 82
+[23-Jan-2017 10:49:19 UTC] PHP Stack trace:
+[23-Jan-2017 10:49:19 UTC] PHP   1. {main}() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:0
+[23-Jan-2017 10:49:19 UTC] PHP   2. UsuarioController->consultarajax() C:\wamp64\www\exercicios\modulo_3\jquery\index.php:43

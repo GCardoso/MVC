@@ -1,0 +1,9 @@
+{
+	"host":"localhost",
+	"usuario":"root",
+	"password":"root",
+	"database":"av1_Marcus",
+	"local_do_Projeto":"/exercicios/modulo_3/fpdf_1/",
+	"quantidade_por_pagina":4,
+	"chave_SSH" :"AIzaSyBKHd3toTo6nAmVIkeOCkd-MeFiToSiXtI"
+}

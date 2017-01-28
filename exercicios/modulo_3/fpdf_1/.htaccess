@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^([a-z]+)/?([a-zA-Z]+)?/?([0-9a-zA-Z]+)?/?$ index.php?controller=$1&acao=$2&id=$3
